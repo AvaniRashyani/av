@@ -6,7 +6,59 @@
   height: 40vmin;
   pointer-events: none;
 }
+.nav-ul li{
+  display: inline-block;
+  padding: 5px;
+ 
+ 
+}
+.inputbox{
+  display: block;
+  margin: 50px;
+  padding: 7px;
+  width: 500px;
+  text-align: center;
 
+  
+  
+}
+.div1{
+margin-left: 100px;
+}
+.button{
+  display: block;
+  margin: 50px;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  background-color: #75bada;
+  color: black;
+}
+.Footer{
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+text-align: center;
+width: 100%;
+background-color: #282c34;
+color: #61dafb;
+}
+.nav-ul li a:hover{
+  color: red;
+}
+.nav-ul{
+  background-color: #282c34;
+  text-align: left;
+}
+.nav-ul li a{
+  color: #61dafb;
+  padding: 5px;
+  margin: 0px;
+  text-decoration: none;
+  
+  
+
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
